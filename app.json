@@ -15,13 +15,22 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.cz24type3.contatinhos"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-sqlite"
-    ]
+    ],
+    "extra": {
+      "supabaseUrl": "https://dmgtkeeusnkkctxknvnr.supabase.co",
+      "supabaseKey": "sb_publishable_ACRSTrTbS9DbxyxXN4anew_UE62641S",
+      "eas": {
+        "projectId": "c6536bb6-ca56-46ef-b59b-c18a1b1b8d72"
+      }
+    },
+    "owner": "cz24-type3"
   }
 }
